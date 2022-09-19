@@ -8,7 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
 
         <h1>
-          This is branch for assign
+          This is branch for assignment 2
         </h1>
 
         <a
