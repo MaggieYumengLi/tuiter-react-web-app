@@ -29,7 +29,7 @@ body {
 .wd-search{
     background-color: darkgrey;
     color:white;
-    width:95%;
+    width:60%;
     font-size: 20px;
     padding: 10px;
     border: darkgrey;
@@ -54,7 +54,6 @@ body {
     list-style-type:none;
     display: inline-block;
     padding: 16px;
-    margin-right: 200px;
 }
 
 .wd-nav-tabs-display .wd-selected{
