@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    font-family: "Arial";
+    background-color: black;
+    color: white;
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+}
+
+.wd-style-right{
+    float:right;
+
+}
+.wd-style-left{
+    float:left;
+}
+
+.wd-float-done {
+    clear: both;
+}
+
+.wd-bookmark-font{
+    font-size: 20px;
+    color: white;
+}
+
+
+.wd-pic-line{
+    border-width: 1px;
+    border-color: lightgrey;
+    border-style: solid;
+    margin-top: 12px;
+
+}
+
+.wd-web-font{
+    font-size: 13px;
+    color: lightgrey;
+    margin-top: 16px;
+}
+
+.wd-user-font{
+    font-size: 15px;
+    color: white;
+    margin-right: 16px;
+}
+
+.wd-user-font-color{
+    font-size: 15px;
+    color: lightgrey;
+}
+.wd-bookmark-color {
+    color: rgb(29,161,242);
+}
+.wd-bookmarks{
+    margin-top: 12px;
+    margin-left: 16px;
+}
+
+.wd-user-img{
+    width: 48px;
+    height: 48px;
+    margin-left: 16px;
+    margin-top: 12px;
+    margin-right: 12px;
+    border-radius: 50%;
+}
+
+
+.wd-users{
+    margin-top: 12px;
+}
+
+.wd-users-bottle{
+    margin-bottom: 12px;
+}
+
+.wd-width{
+    width: 506px;
+}
+
+.wd-rounded-corners-all-around {
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+    margin-left: 76px;
+    margin-top: 12px;
+    overflow: hidden;
+    width: 504px;
+
+}
+
+.wd-img{
+    width: 504px;
+    height: 264px;
+}
+.wd-img-border{
+    border-color: lightgrey;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+}
+
+.wd-box-font-color{
+    font-size: 15px;
+    color: white;
+}
+.wd-padding{
+    padding: 12px;
+}
+
+.footer{
+    margin-left: 76px;
+    width:500px;
+}
+
+.wd-icon-margin{
+    margin-left: 12px;
+}
+
+.wd-iconheart-color{
+    color:red;
+    text-decoration: none;
+}
+.wd-icon-color{
+    color:lightgrey;
+    text-decoration: none;
+}

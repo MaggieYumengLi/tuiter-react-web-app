@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    font-family: "Arial";
+    background-color: black;
+    color: white;
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+}
+.wd-grid-row {
+    clear: both;
+}
+.wd-grid-col-left-page {
+    width: 90%;
+    float: left;
+}
+.wd-grid-col-right-page {
+    width: 10%;
+    float: left;
+}
+
+.wd-rounded-corners-all-around {
+    border-radius: 20px;
+}
+
+.wd-search{
+    background-color: darkgrey;
+    color:white;
+    width:95%;
+    font-size: 20px;
+    padding: 10px;
+    border: darkgrey;
+    margin-left: 16px;
+}
+.wd-font{
+    font-size: 35px;
+    color:rgb(29,161,242);
+    text-align:right;
+    margin-right: 12px;
+}
+
+.wd-nav-tabs-display{
+    display: inline-block;
+}
+
+.wd-nav-tabs{
+    color:rgb(29,161,242);
+}
+
+.wd-nav-tabs-display li{
+    list-style-type:none;
+    display: inline-block;
+    padding: 16px;
+    margin-right: 200px;
+}
+
+.wd-nav-tabs-display .wd-selected{
+    border-bottom: solid 4px rgb(29,161,242);
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+
+.wd-block{
+    background-color: rgb(47, 51, 54);
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+    padding-bottom: 15px;
+    margin-top: 2px;
+}
+.wd-line{
+    background-color: rgb(47, 51, 54);
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+    margin-top: 20px;
+
+}
+
+.wd-post{
+    margin-top: 10px;
+    margin-left: 16px;
+
+}
+.wd-post-font-color {
+    color: white;
+}
+
+.wd-link-font-color {
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+
+}
+
+.wd-post-font{
+    font-size: 13px;
+    color: rgb(110,118,125);
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.wd-post-font-YT{
+    font-size: 13px;
+    color: white;
+    padding-bottom: 5px;
+}
+.wd-post-color {
+    color: rgb(110,118,125);
+}
+
+.wd-style-right{
+    float:right;
+
+}
+.wd-style-left{
+    float:left;
+}
+
+.wd-float-done {
+    clear: both;
+}
+.wd-img{
+    width: 100px;
+    height: 100px;
+    padding-bottom: 5px;
+    margin-right: 16px;
+}
+.wd-no-line {
+    text-decoration: none;
+}
