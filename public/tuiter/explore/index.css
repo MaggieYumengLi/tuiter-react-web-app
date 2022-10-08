@@ -1,3 +1,92 @@
+.wd-search-tuiter{
+    bottom: 8px;
+    left: 10px
+}
+
+body {
+    background-color: black;
+}
+
+.wd-left-navigation-sidebar{
+    background-color: black;
+    color: white;
+}
+
+.wd-right-navigation-sidebar{
+    background-color: rgb(47, 51, 54);
+    color: white;
+}
+.wd-text-grey{
+    color: rgb(110,118,125);
+
+}
+
+.wd-text-white{
+    color: white;
+
+}
+.wd-backgroud-color-gray{
+    background-color: rgb(47, 51, 54);
+}
+
+.wd-border-color-black{
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.wd-border-color-grey{
+    border-color: rgb(47, 51, 54);
+    border-width: 1px;
+    border-style: solid;
+}
+
+.wd-margin{
+    margin-bottom: -8px;
+}
+.wd-border{
+    border-bottom: solid 4px rgb(29,161,242);
+    /*padding-bottom: 2px;*/
+    /*font-size: 15px;*/
+}
+
+.wd-padding-right{
+    padding-right: 16px;
+    padding-top:10px ;
+}
+
+.wd-border_left-right{
+    /*border-color: rgb(47, 51, 54);*/
+    border-left: 1px;
+    border-right: 1px;
+    border-style: solid;
+    border-left-color: rgb(47, 51, 54);
+    border-right-color: rgb(47, 51, 54);
+}
+
+
+.wd-button-color{
+    background-color: white;
+    color: black;
+}
+
+
+.wd-margin-top{
+    margin-top: 15px;
+    padding-left: 20px;
+    font-size: 13px;
+}
+
+.wd-rounded-corners-all-around {
+    border-radius: 20px;
+}
+
+
+
+
+
+
+/*
 *{
     margin:0;
     padding:0;
@@ -128,4 +217,4 @@ body {
 }
 .wd-no-line {
     text-decoration: none;
-}
+}*/
