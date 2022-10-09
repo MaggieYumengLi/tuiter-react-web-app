@@ -20,7 +20,13 @@ body {
     color: rgb(110,118,125);
 
 }
+.wd-padding{
+    padding-top: 0;
+}
 
+.wd-left-padding{
+    padding-left: 15px;
+}
 .wd-text-white{
     color: white;
 
@@ -41,9 +47,10 @@ body {
     border-style: solid;
 }
 
-.wd-margin{
-    margin-bottom: -8px;
+wd.text-color{
+    color: rgb(29,161,242);
 }
+
 .wd-border{
     border-bottom: solid 4px rgb(29,161,242);
     /*padding-bottom: 2px;*/
