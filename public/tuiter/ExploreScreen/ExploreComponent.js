@@ -15,25 +15,25 @@ const ExploreComponent = () => {
 
         <!--List tab link-->
         <ul class="nav nav-tabs">
-        <li class="nav-item mb-2">
+        <li class="nav-item">
         <a class="nav-link active" href="#">For you</a>
         </li>
-        <li class="nav-item mb-2">
+        <li class="nav-item">
         <a class="nav-link" href="#">Trending</a>
         </li>
-        <li class="nav-item mb-2">
+        <li class="nav-item">
         <a class="nav-link" href="#">News</a>
         </li>
-        <li class="nav-item mb-2">
+        <li class="nav-item">
         <a class="nav-link" href="#">Sports</a>
         </li>
-        <li class="nav-item mb-2">
+        <li class="nav-item">
         <a class="nav-link d-none d-md-block" href="#">Entertainment</a>
         </li>
         </ul>
 
         <!--Image-->
-        <div class="position-relative">
+        <div class="position-relative mt-2 mb-2">
         <img class="w-100" src="../explore/starship.jpg">
         <h2 class="position-absolute bottom-0 left-0 text-white fw-bold wd-left-padding">SpaceX's Starship</h2>
         </div>
