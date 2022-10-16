@@ -1,5 +1,5 @@
 .wd-search-tuiter{
-    bottom: 8px;
+    bottom: 5px;
     left: 10px
 }
 
@@ -88,7 +88,9 @@ wd.text-color{
     border-radius: 20px;
 }
 
-
+.wd-margin-bottom{
+    margin-top: 15px;
+}
 
 
 
