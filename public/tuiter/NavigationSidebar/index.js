@@ -5,11 +5,11 @@
             <a href="#" class="list-group-item">
                 <i class="fab fa-twitter" style="color: white"></i>
             </a>
-            <a href="#" class="list-group-item list-group-item-action ${active === 'home' ? 'active' : ''}">
+            <a href="../HomeScreen/index.html" class="list-group-item list-group-item-action ${active === 'home' ? 'active' : ''}">
                 <i class="fas fa-home"></i>
                 <span class="d-none d-xl-inline-block">Home</span>
              </a>
-            <a href="#" class=" list-group-item list-group-item-action ${active === 'explore' ? 'active' : ''}">
+            <a href="../ExploreScreen/index.html" class=" list-group-item list-group-item-action ${active === 'explore' ? 'active' : ''}">
                 <i class="fas fa-hashtag"></i>
                 <span class="d-none d-xl-inline-block">Explore</span>
             </a>
