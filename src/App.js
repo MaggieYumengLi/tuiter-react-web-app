@@ -1,26 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Labs from "./labs";
+import Tuiter from "./tuiter";
+import {BrowserRouter} from "react-router-dom";
+import {Route, Routes} from "react-router";
+import Nav from "./nav";
+import HelloWorld from "./labs/a6/hello-world";
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-
-        <h1>
-          This is branch for assignment 2
-        </h1>
-
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <BrowserRouter>
+          <div className={"container"}>
+                <Nav/>
+                <Routes>
+                <Route index element={<Labs/>}/>
+                <Route path="/hello" element={<HelloWorld/>}/>
+                <Route path="/tuiter" element={<Tuiter/>}/>
+                </Routes>
+            </div>
+      </BrowserRouter>
   );
 }
 
