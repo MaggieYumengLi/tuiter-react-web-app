@@ -22,7 +22,7 @@ const PostItem = (
         <li className="list-group-item">
             <div className="row">
                 <div className="col-1">
-                    <img className="rounded-circle" style={{"width": "45px"}} src={`/images/${post.profilePhoto}`}/>
+                    <img className="rounded-circle" style={{"width": "45px"}} src={`/images/${post.profilePhoto}`} alt="..."/>
                 </div>
                 <div className="col-11 ps-4">
                     <div className="row">
@@ -37,7 +37,7 @@ const PostItem = (
                     </div>
                     <div>{post.content}</div>
                     <div className="rounded-3 mt-2">
-                        <img src={`/images/${post.image}`} className="card-img-top rounded-3"/>
+                        <img src={`/images/${post.image}`} className="card-img-top rounded-3" alt="..."/>
                         {post.title2 || post.content2 || post.link ?
                             <div className=" border-secondary p-3">
                                 {post.title2 ? <p className="card-text mb-0">{post.title2}</p> : ""}
