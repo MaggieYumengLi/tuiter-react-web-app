@@ -1,21 +1,25 @@
 import React from "react";
+import {Link} from "react-router-dom";
+import {useLocation} from "react-router";
 
-const NavigationSidebar = (
-    {
-        active = 'explore'
-    }
-) => {
+const NavigationSidebar = () => {
+    const location = useLocation();
+    const {pathname} = location;
+    console.log(pathname);
+    const parts = pathname.split('/')
+    console.log(parts);
     return (
         <div className="list-group">
-            <a className="list-group-item">Tuiter</a>
-            <a className={`list-group-item ${active === 'home'?'active':''}`}>Home</a>
-            <a className={`list-group-item ${active === 'explore'?'active':''}`}>Explore</a>
-            <a className={`list-group-item ${active === 'notifications'?'active':''}`}>Notifications</a>
-            <a className={`list-group-item ${active === 'messages'?'active':''}`}>Messages</a>
-            <a className={`list-group-item ${active === 'bookmarks'?'active':''}`}>Bookmarks</a>
-            <a className={`list-group-item ${active === 'lists'?'active':''}`}>Lists</a>
-            <a className={`list-group-item ${active === 'profile'?'active':''}`}>Profile</a>
-            <a className={`list-group-item ${active === 'more'?'active':''}`}>More</a>
+            <a href ="#" className="list-group-item">Tuiter</a>
+            <Link to ="/tuiter" href="#" className={`list-group-item ${parts.length <3 ?'active':''}`}>Home</Link>
+            <Link to ="/tuiter/explore" href="#" className={`list-group-item ${parts[2] === 'explore'?'active':''}`}>Explore</Link>
+            <a href ="#" className={`list-group-item ${parts[3] === 'notifications'?'active':''}`}>Notifications</a>
+            <a href ="#" className={`list-group-item ${parts[4] === 'messages'?'active':''}`}>Messages</a>
+            <a href ="#" className={`list-group-item ${parts[5] === 'bookmarks'?'active':''}`}>Bookmarks</a>
+            <a href ="#" className={`list-group-item ${parts[6] === 'lists'?'active':''}`}>Lists</a>
+            <a href ="#" className={`list-group-item ${parts[7] === 'profile'?'active':''}`}>Profile</a>
+            <a href ="#" className={`list-group-item ${parts[8] === 'more'?'active':''}`}>More</a>
+            <Link to ="/" className="list-group-item">Labs</Link>
         </div>
     );
 };
