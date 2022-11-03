@@ -7,7 +7,7 @@ const PostSummaryItem = (
             "userName": "SpaceX",
             "time": "2h",
             "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
-            "image": "tesla.png"
+            "avatarIcon": "tesla.png"
         }
     }
 ) => {
@@ -20,7 +20,7 @@ const PostSummaryItem = (
                     <div>{post.title}</div>
                 </div>
                 <div className="col-2">
-                    <img width={70} className="float-end rounded-3" src={`/images/${post.image}`} alt={post.image}/>
+                    <img width={70} className="float-end rounded-3" src={`/images/${post.avatarIcon}`} alt={post.avatarIcon}/>
                 </div>
             </div>
         </li>
