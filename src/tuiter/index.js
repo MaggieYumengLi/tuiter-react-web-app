@@ -13,7 +13,7 @@ import { configureStore } from '@reduxjs/toolkit';
 import {Provider} from "react-redux";
 
 const store = configureStore(
-    {reducer: {who: whoReducer, tuits: tuitsReducer, profile: profileReducer}});
+    {reducer: {who: whoReducer,tuitsData: tuitsReducer, profile: profileReducer}});
 
 
 function Tuiter(){
@@ -32,6 +32,7 @@ function Tuiter(){
                     <Route path="/edit-profile" element={<EditProfileComponent/>}/>
                 </Routes>
             </div>
+
             <div className="d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
                 <WhoToFollowList/>
             </div>
