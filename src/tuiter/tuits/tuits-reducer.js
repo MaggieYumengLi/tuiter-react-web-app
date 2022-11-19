@@ -46,12 +46,13 @@ const tuitSlice = createSlice({
             (state, { payload }) => {
                 state.loading = false
                 state.tuits = state.tuits
-                    .filter(t => t._id !== payload._id)
+                    .filter(t => t._id !== payload)
             },
         [createTuitThunk.fulfilled]:
             (state, { payload }) => {
                 state.loading = false
-                state.tuits.push(...payload, ...templateTuit)
+                console.log({...payload, ...templateTuit})
+                state.tuits.push({...payload, ...templateTuit})
             },
         [updateTuitThunk.fulfilled]:
             (state, { payload }) => {
