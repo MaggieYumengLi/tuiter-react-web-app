@@ -19,6 +19,7 @@ const TuitList = () => {
                     Loading...
                 </li>
             }
+            {console.log(tuits)}
             {
                 tuits.map(post =>
                     <TuitItem key={post._id} post={post}/>)
